@@ -1,0 +1,17 @@
+[project]
+name = "gemmeye"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "librosa>=0.11.0",
+    "mlx-audio>=0.2.3",
+    "mlx-lm>=0.26.2",
+    "mlx-vlm>=0.3.2",
+    "streamlit>=1.48.0",
+    "torch>=2.7.1",
+    "torchaudio>=2.7.1",
+    "torchvision>=0.22.1",
+    "watchdog>=6.0.0",
+]
